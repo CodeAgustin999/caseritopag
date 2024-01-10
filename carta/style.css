@@ -1,0 +1,110 @@
+*{
+    font-family: arial;
+   background-color: var(--barra-color);
+    color:var(--letra-color)
+}
+:root{
+    --barra-color:#413040;
+    --titulo-color:#EAA353;
+    --back-color:#6c6368; 
+    --letra-color:#b9a173;
+}
+body{
+    margin: 0;
+    font-family: arial;
+    position: relative;
+    
+    min-height:99vh;
+
+}
+/*____ENCABEZADOS____*/
+ 
+.logo{
+    position: absolute;
+    top: 0;
+    left: 120px;
+  }
+  
+/*____BARRA DE NAVEGACIÓN____*/
+.navegador ul{
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+  }
+  .navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+  }
+  .navegador li a{
+    padding: 2px 7px 2px 7px;
+    color: var(--letra-color);
+    background-color: var(--back-color);
+    border: 1px solid var(--titulo-color);
+    text-decoration: none;
+    
+  }
+  .navegador li a:hover{
+    background-color: var(--back-color);
+    color: var(--titulo-color);
+    
+
+}
+:hover{
+    color: orange;
+}
+
+
+/*____CONTENIDO DEL BODY____*/
+
+/*____TITULOS____*/
+h1{
+  text-align: center;
+  color:var(--titulo-color)
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+color:var(--titulo-color);
+text-transform: capitalize;
+}
+
+h5{
+text-decoration: underline;
+}
+/*____BODY____*/
+.carta-container{
+  display: flex;
+    }
+    .bebidas-container{
+      margin-left: 15px;
+    }
+    .panaderia-container{
+      margin-right: 15px;
+    }
+
+/*____PIE DE PÁGINA____*/
+
+  .pie{
+    background-color: var(--letra-color);
+    color: var(--barra-color);
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .pie-pag{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--letra-color);
+  }
+  .credito{
+    color:blue;
+    background-color: var(--letra-color);
+    text-align: right;
+    margin-right: 15px;
+  }
+  .credito-text{
+    color: blue;
+    background-color: var(--letra-color);
+  }

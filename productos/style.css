@@ -1,0 +1,124 @@
+:root{
+    --barra-color:#413040;
+    --titulo-color:#EAA353;
+    --back-color:#6c6368; 
+    --letra-color:#b9a173;
+}
+*{  
+    text-align: center;
+  padding-bottom: 0;
+
+}
+
+.logo{
+  position: absolute;
+  left: 10px;
+}
+
+
+
+
+/*___BARRA DE NAVEGACIÓN___*/
+.navegador ul{
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+  }
+  .navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+  }
+  .navegador li a{
+    padding: 2px 7px 2px 7px;
+    color: var(--letra-color);
+    background-color: var(--back-color);
+    border: 1px solid var(--titulo-color);
+    text-decoration: none;
+    
+  }
+  .navegador li a:hover{
+    background-color: var(--back-color);
+    color: var(--titulo-color);
+    
+  }
+/*____TITULOS____*/
+h1{
+  color: var(--titulo-color);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+h3{
+color: var(--letra-color);
+text-transform: uppercase;
+}
+/*____ESTILO DEL BODY____*/
+body{
+background-color: var(--barra-color);
+}
+.panaderia{
+  position: absolute;
+  left: 445px;
+  bottom: 574px;
+}
+.cafeteria{
+  position: absolute;
+  left: 439px;
+  bottom: 201px;
+}
+/*____IMAGENES____*/
+.cafe{
+    
+}
+.frapuccino{
+  margin-left: 15px;
+}
+.torta{
+margin-left: 15px;
+}
+
+
+/*____FOOTER____*/
+.footer{
+    background-color: var(--letra-color);
+      color: var(--barra-color);
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      
+}
+    
+    .contacto{
+      text-align: center;
+      align-items: right;
+      justify-content: right;
+}
+    .credito{
+      color: blue;
+      margin-left: 85%;
+      padding-bottom: 0;
+      bottom: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+
+  h3 {
+    color: blue;
+    padding: 20px;
+  }
+}
+.carta-container{
+
+}
+.cafeteria-container{
+  margin-left: 15px;
+}
+.bebidas{
+  margin-left: 15px;
+}

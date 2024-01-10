@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="../media/iconos.png" type="image/x-icon">
+    <title>CASERITO</title>
+</head>
+<body>
+<!--¬ HEADER CONTENEDOR-->    
+<div class="header-container">
+<!--Barra de navegacion-->
+<div class="navegador">
+    <nav>
+        <ul> 
+            <li><a href="../inicio/paginicio.html">INICIO </a></li>
+            <li><a href="../carta/carta.html">CARTA</a></li>
+            <li><a href="../productos/producto.html">PRODUCTO</a></li>
+        </ul>
+    </nav>
+</div>
+<!--Logo-->
+<div class="logo">
+<img src="../media/logo.png" alt="logo" width="250px" height="250px">
+</div>
+</div>
+
+<!--¬ BODY CONTENEDOR-->
+<div class="body-container">
+    <div class="titulo">
+    <H1>trabaja con nosotros</H1>
+    </div>
+    <div class="formulario">
+    <form action="https://formsubmit.co/7ecc9f9b400e9824a42e59b7def66513" method="POST" > <!--cafecaserito99@gmail.com-->
+    <div class="input-group">
+        <input type="text" required name="nombre">
+        <label for="">Nombre</label>
+    </div>
+    <div class="input-group">
+        <input type="text" required name="apellido">
+        <label for="">Apellido</label>       
+    </div>
+    <div class="input-group">
+        <input type="email" required name="email">
+        <label for="">Email</label>
+    </div>
+    <div class="input-group">
+        <input type="number" required name="telefono">
+        <label for="">Telefono</label>
+    </div>
+    <div>
+    <label for="" multiple class="puesto-lbl">Puesto solicitado</label>
+    <select name="puesto-soli">
+        <option value="mozo" select>Mozo</option>
+        <option value="encargado">Encargado</option>
+        <option value="cajero">Cajero</option>
+
+    </select>
+    </div>
+    <h5>Experiencia en el puesto seleccionado</h5>
+    <div>    
+    <textarea name="experiencia" id="experiencia" cols="45" rows="10" style="background-color:#413040; color:#EAA353;"> </textarea>
+    </div>
+    <button type="submit">Enviar</button>
+
+    <input type="hidden" name="_next" value="http://127.0.0.1:5501/unete.html"><!--!AQUÍ EN VALUE SE DEBE PONER EL DOMINIO DE LA PAGINA WEB-->
+    <input type="hidden" name="_captcha" value="false">
+</form> 
+</div>
+</div>
+<!--¬ FOOTER CONTENEDOR-->
+<div class="footer-container">
+    <div class="titulo-contacto">
+        <h5>CONTACTO</h5>
+    </div>
+    <div class="contacto">
+        <p class="tel">Telefono:35155555</p>
+        <p class="email">Email:caserito@gmail.com</p>
+        <p class="ubi">Ubicación:Alberto3460</p>
+    </div>
+    <div class="credito">
+        <p>Creado por codeagus999</p>
+    </div>
+</div>
+
+</body>
+</html>
